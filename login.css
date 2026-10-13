@@ -1,0 +1,198 @@
+body{
+  background-color: #060d1f;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  background-image: url(anime-images/login-img.png);
+}
+.a{
+  text-decoration: none;
+  color: inherit;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  margin-right: 12%;
+  font-size: 30px;
+  font-family: 'Rajdhani', sans-serif;
+  color: #ffffff;
+  letter-spacing: -4px;
+  margin-top: -1px;
+  margin-top: 20px;
+}
+.domain{
+  letter-spacing: -2px;
+  color: #00e5ff;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #060d1fbb;
+  border-bottom: 1px solid #1a2d52;
+  border-left-style: none;
+  border-right-style: none;
+  padding-bottom: -16px;
+}
+.right{
+  padding-right: 20px;
+  color: #6b7a99;
+}
+.right a {
+  text-decoration: none;
+  color: inherit;
+}
+section{
+  background-color: #0d1b35;
+  border: 1px solid #1a2d52;
+  box-shadow: 0 0 60px #00e5ff11;
+  width: 700px;
+  margin-top: 64px;
+  margin-left: 29%;
+  border-radius: 10px;
+  height: 700px;
+}
+.logo2{
+  font-size: 30px;
+  font-family: 'Rajdhani', sans-serif;
+  color: #ffffff;
+  letter-spacing: -4px;
+  margin-left: 40%;
+  padding-top: 30px;
+}
+.domain2{
+  letter-spacing: -2px;
+  color: #00e5ff;
+}
+.welcome{
+  font-family: 'inter';
+  color: #6b7a99;
+  margin-left: 24%;
+  margin-top: -10px;
+}
+.email-section{
+  margin-left: 15%;
+  margin-top: 7%;
+}
+.email-text{
+  color: #6b7a99;
+  font-family:'inter' ;
+}
+.email{
+  background-color: #060d1f;
+  border: 1px solid #1a2d52;
+  padding-left: 10px;
+  padding-right: 270px;
+  padding-bottom: 13px;
+  padding-top: 13px;
+  border-radius: 10px;
+  color: #3a4a6b;
+  font-family: 'inter';
+  margin-top: -10px;
+  width: 40%;
+  font-size: 16px;
+}
+.email:focus-within{
+  color: #00e5ff;
+}
+.password-section{
+  margin-left: 15%;
+  margin-top: 7%;
+  margin-bottom: 50px;
+}
+.password-text{
+  color: #6b7a99;
+  font-family:'inter' ;
+}
+.password{
+  background-color: #060d1f;
+  border: 1px solid #1a2d52;
+  padding-left: 10px;
+  padding-right: 270px;
+  padding-bottom: 13px;
+  padding-top: 13px;
+  border-radius: 10px;
+  color: #3a4a6b;
+  font-family: 'inter';
+  width: 40%;
+  margin-top: -10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.password:focus-within{
+  color: #00e5ff;
+}
+.forgot{
+  display: block;
+  color: #6b7a99;
+  font-family: 'inter';
+  cursor: pointer;
+  
+  margin-left: 67%;
+  font-size: 14px;
+}
+.forgot:hover{
+  color: #00e5ff;
+  transition: 0.5s ease;
+}
+.login{
+  display: block;
+  border-radius: 10px;
+  margin-left: 13%;
+  padding: 13px 239px;
+  color: #060d1f;
+  background-color: #00e5ff;
+  border: none;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.login:active{
+  opacity: 0.5;
+  transition: 0.3s ease;
+}
+.divider{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.line{
+  flex: 1;
+  border: none;
+  border-top: 1px solid #1a2d52;
+  width: 10px;
+}
+.or{
+  color: #3a4a6b;
+  font-size: 15px;
+}
+.google{
+  display: block;
+  border-radius: 10px;
+  margin-left: 13%;
+  padding: 13px 175px;
+  color: #ffffff;
+  background-color: transparent;
+  border: 1px solid #1a2d52;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.google:hover{
+  border-color: #00e5ff;
+  transition: 0.5s ease;
+  
+}
+.account{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6b7a99;
+  margin-left: 35%;
+}
+.account a{
+  color: #00e5ff;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}

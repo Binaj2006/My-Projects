@@ -1,0 +1,509 @@
+body {
+  background-color: #060d1f;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  margin-right: 12%;
+  font-size: 30px;
+  font-family: 'Rajdhani', sans-serif;
+  color: #ffffff;
+  letter-spacing: -4px;
+}
+.domain{
+  letter-spacing: -2px;
+  color: #00e5ff;
+}
+.center-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  width: 100%;
+  font-family: 'Inter', sans-serif;
+  
+}
+.center-header a:hover{
+  color: #00e5ff;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.right-header{
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #060d1fbb;
+  border-bottom-color: #1a2d52;
+  border-style: solid;
+  margin-top: -15px;
+  border-left-style: none;
+  border-right-style: none;
+}
+
+
+.mid-header{
+   gap: 28px;
+   display: flex;
+   justify-content: space-between;
+   color: #6b7a99;
+}
+.search{
+  width: 500px;
+  background-color: #0d1b35;
+  border-color: #1a2d52;
+  border-style: solid;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-radius: 6px;
+}
+.login{
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #00e5ff;
+  border-color: #00e5ff;
+  border-radius: 6px;
+  background-color: #060d1f;
+  border-style: solid;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+}
+.login:hover{
+  background-color: #00e5ff22;
+  transition: 1s;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 13px;
+  padding-top: 13px;
+}
+.hero-section{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30%;
+  margin-top: 1%;
+  gap: 30px;
+  height: 70vh;
+  background-image: url('anime-images/frieren-cover.png');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.hero-poster,
+.hero-info {
+  position: relative;
+  z-index: 2;
+}
+.hero-overlay{
+  position: absolute;
+  inset: 0;
+  background-color: #060d1faa;
+  backdrop-filter: blur(4px);
+}
+.watchnow:hover{
+  cursor: pointer;
+  background-color:  #060d1f;
+  color: #00e5ff;
+  transition: 0.6s;
+}
+.trailer:hover{
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #6b7a99;
+  border: none;
+  transition: 0.6s;
+}
+.watchnow:active{
+ opacity: 0.6;
+}
+
+  
+.frieren{
+  height: 400px;
+  border-style: none;
+  border-radius: 16px;
+  border-color: #1a2d52;
+  box-shadow: 0 0px 30px #00e5ff44;
+  margin-top: 20px;
+}
+.rating{
+  display: flex;
+  gap: 7px;
+  margin-top: -46px;
+  margin-bottom: 15px;
+}
+.tags{
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  gap: 5px;
+  margin-bottom: 19px;
+  
+}
+.anime-title{
+  color: #ffffff;
+  font-size: 40px;
+  font-family: 'Rajdhani';
+}
+.bro{
+  color: #6b7a99;
+}
+.anime-rating{
+  color: #00e5ff;
+}
+.fantasy{
+  color:#00e5ff;
+  background: transparent;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  border-style: solid;
+  border-radius: 19px;
+  border-color:#00e5ff ;
+  cursor: pointer;
+}
+.fantasy:hover{
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: 0.6s;
+}
+.adventure{
+  color: #7b5ea7;
+  background: transparent;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  border-style: solid;
+  border-radius: 19px;
+  border-color: #7b5ea7;
+  cursor: pointer;
+}
+.adventure:hover{
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: 0.5s;
+}
+.slice{
+  color: #6b7a99;
+  background: transparent;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  border-style: solid;
+  border-radius: 19px;
+  border-color: #6b7a99;
+  cursor: pointer;
+}
+.slice:hover{
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: 0.5s;
+}
+.drama{
+  color: #ff4d6d;
+  background: transparent;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  border-style: solid;
+  border-radius: 19px;
+  border-color: #ff4d6d;
+  cursor: pointer;
+}
+.drama:hover{
+  padding-left: 15px;
+  padding-right: 15px;
+  transition: 0.5s;
+}
+.description{
+  color: #6b7a99;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+.watchnow{
+  background-color: #00e5ff;
+  color: #060d1f;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-style: none;
+  border-radius: 7px;
+  font-weight: bold;
+  
+}
+.trailer{
+  border-color: #6b7a99;
+  color: #ffffff;
+  background: transparent;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-style: solid;
+  border-radius: 7px;
+  font-weight: bold;
+}
+.filters{
+  display: flex;
+  justify-content: space-between;
+  background-color: #1a2d52;
+  margin-top: 2px;
+  padding-bottom:5px;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #6b7a99;
+  font-family: 'Inter', sans-serif;
+  font-size: 15px;
+}
+.filters a:hover{
+  color: #ffffff;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.all {
+  color: #00e5ff;
+  border-bottom: 2px solid #00d9ff;
+  padding-bottom: 15px;
+}
+.seeall-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+.trendy{
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+}
+.side-slash{
+  color: #00e5ff;
+}
+.seeatleast{
+  color: #00e5ff;
+  font-family: 'Inter', sans-serif;
+
+}
+.main-poster-section{
+  display: flex;
+  margin-left: 10px;
+  gap: 24px;
+
+}
+.posterimg{
+  height: 200px;
+  width: 160px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.poster1{
+  
+  width: 160px;
+  border-radius: 20px;
+  background-color: #182B56;
+  border: 2px solid transparent;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+}
+.anime-title2{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 9px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.anime-text{
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  margin-top: -22px;
+  margin-left: 9px;
+  
+}
+.text1{
+  color: #6b7a99;
+}
+.text2{
+  color: #00e5ff;
+}
+.top-button{
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  border-radius: 5px;
+  border-color: transparent;
+  background-color: #00e5ff;
+  color: #060d1f;
+  border-radius: 7px;
+  font-weight: bold;
+  font-family: 'Rajdhani', sans-serif;
+}
+.top{
+  position: absolute;
+  top: 17px;
+  left: 5px;
+  
+}
+.poster3{
+  width: 160px;
+  border-radius: 20px;
+  background-color: #182B56;
+  border: 2px solid transparent;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, border-color 0.4s ease;
+  position: relative;
+  z-index: 100;
+}
+.poster1:hover{
+  border-color: #00e5ff;
+  box-shadow: 0 0 20px #00e5ff33;
+  transform: translateY(-4px);
+  cursor: pointer;
+}
+.poster3:hover{
+  border-color: #00e5ff;
+  box-shadow: 0 0 20px #00e5ff33;
+  transform: translateY(-4px);
+  cursor: pointer;
+}
+.ai-section{
+  margin-top: 60px;
+  border-radius: 9px;
+  border-color: #00e5ff;
+  border: 2px solid #00e5ff;
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  width: 90%;
+  margin-left: 50px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+.mechasenku{
+  height: 120px;
+
+}
+.ai-img{
+  margin-left: 100px;
+}
+.ai-description{
+  margin-left: -90px;
+}
+.desc1{
+  font-size: 20px;
+  font-family: 'Rajdhani';
+  color: #00e5ff;
+}
+.desc2{
+  font-size: 13px;
+  font-family: 'Inter';
+  color: #6b7a99;
+  line-height: 1.6;
+}
+.reccoms{
+  margin-left: 30px;
+  background-color: #00e5ff;
+  color: #060d1f;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-style: none;
+  border-radius: 7px;
+  font-weight: bold;
+ 
+}
+.reccoms:active{
+  cursor: pointer;
+}
+.reccoms:hover{
+  cursor: pointer;
+}
+.poster-section2{
+  margin-top: 80px;
+}
+.more{
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #2a4a7a;
+  padding-left: 34px;
+  padding-right: 34px;
+  padding-bottom: 11px;
+  padding-top: 11px;
+  border-radius: 7px;
+  margin-left: 45%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.more:hover{
+  color: #00e5ff;
+  border-color: #00e5ff;
+  transition: 0.5s ease;
+  cursor: pointer;
+
+}
+.footer{
+  background-color: #0d1b35;
+  height: 130px;
+  border-top: 1px solid #1a2d52;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-right: 20px;
+}
+.logo2{
+  color: #ffffff;
+  font-family: 'Rajdhani';
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 30px;
+  margin-top: 40px;
+  letter-spacing: -4px;
+}
+.domain2{
+  color: #00e5ff;
+  letter-spacing: -2px;
+}
+.footer-right{
+  display: flex;
+  color: #6b7a99;
+  gap: 20px;
+  font-family: 'inter';
+  align-items: center;
+  margin-top: 5px;
+ 
+}
+.footer-right a:hover{
+  color: #00e5ff;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.footer-middle{
+  color: #6b7a99;
+  font: 12px;
+  font-family: 'inter';
+  margin-top: 90px;
+  margin-left: 10%;
+}
